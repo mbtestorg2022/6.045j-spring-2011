@@ -9,31 +9,300 @@ The lecture slides in this section are courtesy of Prof. Nancy Lynch, and are us
 Lecture Notes
 -------------
 
-| LEC # | TOPICS | LECTURE NOTES |
-| --- | --- | --- |
-| 1 | Introduction | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec01)) |
-| 2 | Logic, circuits, and gates | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec02)) |
-| 3 | Deterministic finite automata (DFAs) and nondeterministic finite automata (NFAs) | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec03)) |
-| 4 | NFAs and regular expressions | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec04)) |
-| 5 | Non-regular languages and the pumping lemma | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec05)) |
-| 6 | Turing machines | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec06)) |
-| 7 | Decidability | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec07)) |
-| 8 | Undecidable problems and Post correspondence problem (PCP) | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec08)) |
-| 9 | Mapping reducibility and Rice's theorem | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec09)) |
-| 10 | Self-reference and the recursion theorem | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec10)) |
-| 11 | Introduction to cryptography | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec11)) |
-| 12 | Complexity theory | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec12)) |
-| 13 | Pseudorandom generators and one-way functions | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec13)) |
-| 14 | Public-key cryptography | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec14)) |
-| 15 | More complexity theory | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec15)) |
-| 16 | More NP-completeness | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec16)) |
-| 17 | Probabilistic Turing machines and complexity classes | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec17)) |
-| 18 | Trapdoor one-way functions and zero-knowledge proofs | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec18)) |
-| 19 | Probably approximately correct (PAC) learning | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec19)) |
-| 20 | More PAC learning | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec20)) |
-| 21 | Introduction to quantum | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec21)) |
-| 22 | Quantum mechanics and BQP | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec22)) |
-| 23 | Quantum algorithms | ([PDF]({{< baseurl >}}/resources/mit6_045js11_lec23)) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LECTURE NOTES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec01))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Logic, circuits, and gates
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec02))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Deterministic finite automata (DFAs) and nondeterministic finite automata (NFAs)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec03))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+NFAs and regular expressions
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec04))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Non-regular languages and the pumping lemma
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec05))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Turing machines
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec06))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Decidability
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec07))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Undecidable problems and Post correspondence problem (PCP)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec08))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Mapping reducibility and Rice's theorem
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec09))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Self-reference and the recursion theorem
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to cryptography
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Complexity theory
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Pseudorandom generators and one-way functions
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec13))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Public-key cryptography
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec14))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+More complexity theory
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec15))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+More NP-completeness
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec16))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Probabilistic Turing machines and complexity classes
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec17))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Trapdoor one-way functions and zero-knowledge proofs
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec18))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Probably approximately correct (PAC) learning
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec19))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+More PAC learning
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec20))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to quantum
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec21))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Quantum mechanics and BQP
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec22))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Quantum algorithms
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_045js11_lec23))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Cryptography Handout
 --------------------
