@@ -4,7 +4,7 @@ title: Lecture Notes
 uid: 0bc7aff2-1bf7-8475-38bb-8fabd142084f
 ---
 
-The lecture slides in this section are courtesy of Prof. Nancy Lynch, and are used with permission. The scribe notes were originally from [_6.080 Great Ideas in Theoretical Computer Science_](/courses/6-080-great-ideas-in-theoretical-computer-science-spring-2008/); scribe notes are courtesy of the student named in the file, and are used with permission.
+The lecture slides in this section are courtesy of Prof. Nancy Lynch, and are used with permission. The scribe notes were originally from [_6.080 Great Ideas in Theoretical Computer Science_](/courses/6-080-great-ideas-in-theoretical-computer-science-spring-2008); scribe notes are courtesy of the student named in the file, and are used with permission.
 
 Lecture Notes
 -------------
